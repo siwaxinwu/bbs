@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.zjut.userService.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="cn.edu.zjut.userService.model.entity.User">
+            <id property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="nickName" column="nick_name" jdbcType="VARCHAR"/>
+            <result property="userName" column="user_name" jdbcType="VARCHAR"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
+            <result property="userType" column="user_type" jdbcType="CHAR"/>
+            <result property="gender" column="gender" jdbcType="CHAR"/>
+            <result property="phone" column="phone" jdbcType="VARCHAR"/>
+            <result property="avatar" column="avatar" jdbcType="VARCHAR"/>
+            <result property="status" column="status" jdbcType="CHAR"/>
+            <result property="birthday" column="birthday" jdbcType="TIMESTAMP"/>
+            <result property="hometown" column="hometown" jdbcType="VARCHAR"/>
+            <result property="email" column="email" jdbcType="VARCHAR"/>
+            <result property="sign" column="sign" jdbcType="VARCHAR"/>
+            <result property="college" column="college" jdbcType="VARCHAR"/>
+            <result property="major" column="major" jdbcType="VARCHAR"/>
+            <result property="grade" column="grade" jdbcType="INTEGER"/>
+            <result property="coinCount" column="coin_count" jdbcType="INTEGER"/>
+            <result property="postCount" column="post_count" jdbcType="INTEGER"/>
+            <result property="likeCount" column="like_count" jdbcType="INTEGER"/>
+            <result property="fanCount" column="fan_count" jdbcType="INTEGER"/>
+            <result property="followCount" column="follow_count" jdbcType="INTEGER"/>
+            <result property="onlineBool" column="is_online" jdbcType="TINYINT"/>
+            <result property="deleteBool" column="is_delete" jdbcType="TINYINT"/>
+            <result property="loginIp" column="login_ip" jdbcType="VARCHAR"/>
+            <result property="loginDate" column="login_date" jdbcType="TIMESTAMP"/>
+            <result property="createdTime" column="created_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        user_id,nick_name,user_name,
+        `password`,user_type,gender,
+        phone,avatar,`status`,
+        birthday,hometown,email,
+        sign,college,major,
+        grade,coin_count,post_count,
+        like_count,fan_count,follow_count,
+        is_online,is_delete,login_ip,
+        login_date,created_time,update_time
+    </sql>
+</mapper>

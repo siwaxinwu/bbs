@@ -1,0 +1,68 @@
+server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB # 最大文件大小
+      max-request-size: 50MB
+  redis:
+    host: 116.62.116.114
+    port: 6379
+    password: lcg491705331
+  datasource:
+    url: jdbc:mysql://116.62.116.114:3306/zjut-live?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: qq491705331
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    redis:
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: 100ms
+  rabbitmq:
+    host: 116.62.116.114 # 主机名
+    port: 5672 # 端口
+    virtual-host: / # 虚拟主机
+    username: test # 用户名
+    password: test123456 # 密码
+
+mybatis-plus:
+  config-location:
+    - classpath*:mapper/**/*Mapper.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+# 七牛云存储配置
+qiniuyun:
+  accessKey: DbO1MAa0SWit2LcF_R_LkEWVGhYqs6mwHM6AQPow
+  secretKey: CE5TNwmDsGg470oFh56Nf_uIwYfBUOmgS38yU3Cd
+  bucket: xgcode
+  domain: http://cdn.xgcode.cn/ # 用于拼接图片url
+
+
+logging:
+  file:
+    path: ./logs/
+  level:
+    root: info
+  logback:
+    rollingpolicy:
+      file-name-pattern: logs/log.%d.%i.log
+      max-file-size: 10MB
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.zjut.circleAndTopicService.mapper.PostMapper">
+
+    <resultMap id="BaseResultMap" type="cn.edu.zjut.circleAndTopicService.model.entity.Post">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="type" column="type" jdbcType="CHAR"/>
+            <result property="content" column="content" jdbcType="VARCHAR"/>
+            <result property="circleId" column="circle_id" jdbcType="BIGINT"/>
+            <result property="commentCount" column="comment_count" jdbcType="OTHER"/>
+            <result property="coinCount" column="coin_count" jdbcType="OTHER"/>
+            <result property="thumbCount" column="thumb_count" jdbcType="OTHER"/>
+            <result property="readCount" column="read_count" jdbcType="OTHER"/>
+            <result property="isEssence" column="is_essence" jdbcType="TINYINT"/>
+            <result property="isTop" column="is_top" jdbcType="TINYINT"/>
+            <result property="status" column="status" jdbcType="CHAR"/>
+            <result property="isDelete" column="is_delete" jdbcType="TINYINT"/>
+            <result property="createdTime" column="created_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,user_id,type,
+        content,circle_id,comment_count,
+        coin_count,thumb_count,read_count,
+        is_essence,is_top,status,
+        is_delete,created_time,update_time
+    </sql>
+</mapper>

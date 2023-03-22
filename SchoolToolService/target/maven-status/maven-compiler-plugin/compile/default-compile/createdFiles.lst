@@ -1,0 +1,6 @@
+cn\edu\zjut\schoolToolService\controller\ClassTableController.class
+cn\edu\zjut\schoolToolService\controller\TermInfoController.class
+cn\edu\zjut\schoolToolService\dto\WejhLoginRequest.class
+cn\edu\zjut\schoolToolService\controller\WejhUserController.class
+cn\edu\zjut\schoolToolService\dto\ZfRequest.class
+cn\edu\zjut\schoolToolService\controller\ExamController.class

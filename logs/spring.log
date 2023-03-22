@@ -1,0 +1,253 @@
+2023-03-22 20:51:18.437  INFO 30968 --- [restartedMain] cn.edu.zjut.Application                  : Starting Application using Java 11.0.12 on LAPTOP-ICD76T5G with PID 30968 (E:\code\java\zjut-live\app\target\classes started by bert in E:\code\java\zjut-live)
+2023-03-22 20:51:18.437  INFO 30968 --- [restartedMain] cn.edu.zjut.Application                  : No active profile set, falling back to default profiles: default
+2023-03-22 20:51:18.495  INFO 30968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-22 20:51:18.495  INFO 30968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-22 20:51:19.724  INFO 30968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-22 20:51:19.724  INFO 30968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-22 20:51:19.765  INFO 30968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+2023-03-22 20:51:20.717  INFO 30968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-22 20:51:20.737  INFO 30968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-22 20:51:20.737  INFO 30968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-03-22 20:51:20.869  INFO 30968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-22 20:51:20.869  INFO 30968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2374 ms
+2023-03-22 20:51:23.490  INFO 30968 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-22 20:51:23.955  INFO 30968 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-03-22 20:51:24.034  INFO 30968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-22 20:51:24.166  INFO 30968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-22 20:51:24.166  INFO 30968 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [116.62.116.114:5672]
+2023-03-22 20:51:24.227  INFO 30968 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#120b501c:0/SimpleConnection@35c65bba [delegate=amqp://test@116.62.116.114:5672/, localPort= 62795]
+2023-03-22 20:51:24.430  INFO 30968 --- [restartedMain] cn.edu.zjut.Application                  : Started Application in 6.517 seconds (JVM running for 8.381)
+2023-03-22 20:52:36.172  INFO 30968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-22 20:52:36.174  INFO 30968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-22 20:52:36.178  INFO 30968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-03-22 20:52:38.508  INFO 30968 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-22 20:52:50.928  INFO 30968 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-22 20:53:40.230  INFO 30968 --- [http-nio-8080-exec-2] c.e.z.c.e.GlobalExceptionHandler         : BusinessException, 未登录
+2023-03-22 20:53:40.240  WARN 30968 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [BusinessException(code=4001, message=未登录)]
+2023-03-22 20:53:53.506  INFO 30968 --- [http-nio-8080-exec-1] c.e.z.c.e.GlobalExceptionHandler         : BusinessException, 账号或密码错误
+2023-03-22 20:53:53.508  WARN 30968 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [BusinessException(code=4000, message=账号或密码错误)]
+2023-03-22 20:54:02.850  INFO 30968 --- [http-nio-8080-exec-6] cn.edu.zjut.common.aspect.LogAspect      : =====================log start================================
+2023-03-22 20:54:02.853  INFO 30968 --- [http-nio-8080-exec-6] cn.edu.zjut.common.aspect.LogAspect      : request cn.edu.zjut.userService.controller.UserController.login()
+2023-03-22 20:54:02.862  INFO 30968 --- [http-nio-8080-exec-6] cn.edu.zjut.common.aspect.LogAspect      : params:LoginDto(loginType=1, userName=491705331, phone=null, password=491705331., captcha=oc4q, captchaId=e5a701f0-f5c1-4eec-9c2e-abf7da0a5b3f, code=null)
+2023-03-22 20:54:02.862  INFO 30968 --- [http-nio-8080-exec-6] cn.edu.zjut.common.aspect.LogAspect      : ip:0:0:0:0:0:0:0:1
+2023-03-22 20:54:02.865  INFO 30968 --- [http-nio-8080-exec-6] cn.edu.zjut.common.aspect.LogAspect      : result:{"code":2000,"data":{"avatar":"http://cdn.xgcode.cn/zjutLive%2F10001%2F2023-03-10%2F0c8d3100f8284629b66a42ce17cff981.jpg","gender":"1","nickName":"小编","status":"0","token":"c7c1925fdff344c38995dd9f651438b0","userId":10001,"userType":"0"},"msg":"成功"}
+2023-03-22 20:54:02.865  INFO 30968 --- [http-nio-8080-exec-6] cn.edu.zjut.common.aspect.LogAspect      : excute time : 130 ms
+2023-03-22 20:54:02.865  INFO 30968 --- [http-nio-8080-exec-6] cn.edu.zjut.common.aspect.LogAspect      : =====================log end================================
+2023-03-22 20:54:02.865  INFO 30968 --- [http-nio-8080-exec-6] cn.edu.zjut.common.aspect.LogAspect      : 
+
+2023-03-22 20:54:04.931  INFO 30968 --- [http-nio-8080-exec-7] c.e.z.c.e.GlobalExceptionHandler         : BusinessException, 您已签到过了
+2023-03-22 20:54:04.932  WARN 30968 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [BusinessException(code=4000, message=您已签到过了)]
+2023-03-22 20:54:19.079  INFO 30968 --- [http-nio-8080-exec-5] cn.edu.zjut.common.aspect.LogAspect      : =====================log start================================
+2023-03-22 20:54:19.079  INFO 30968 --- [http-nio-8080-exec-5] cn.edu.zjut.common.aspect.LogAspect      : request cn.edu.zjut.circleAndTopicService.controller.CommentController.addComment()
+2023-03-22 20:54:19.087  INFO 30968 --- [http-nio-8080-exec-5] cn.edu.zjut.common.aspect.LogAspect      : params:CommentAddRequest(content=😃, type=0, replyCommentId=null, commentId=null, replyUserId=null, postId=33)
+2023-03-22 20:54:19.087  INFO 30968 --- [http-nio-8080-exec-5] cn.edu.zjut.common.aspect.LogAspect      : ip:0:0:0:0:0:0:0:1
+2023-03-22 20:54:19.087  INFO 30968 --- [http-nio-8080-exec-5] cn.edu.zjut.common.aspect.LogAspect      : result:{"code":2000,"data":{"content":"😃","createdTime":1679489660000,"hotReplyList":[],"id":45,"isThumb":false,"postId":33,"replyCount":0,"thumbCount":0,"type":"0","user":{"avatar":"http://cdn.xgcode.cn/zjutLive%2F10001%2F2023-03-10%2F0c8d3100f8284629b66a42ce17cff981.jpg","gender":"1","nickName":"小编","status":"0","userId":10001,"userType":"0"}},"msg":"成功"}
+2023-03-22 20:54:19.087  INFO 30968 --- [http-nio-8080-exec-5] cn.edu.zjut.common.aspect.LogAspect      : excute time : 119 ms
+2023-03-22 20:54:19.087  INFO 30968 --- [http-nio-8080-exec-5] cn.edu.zjut.common.aspect.LogAspect      : =====================log end================================
+2023-03-22 20:54:19.087  INFO 30968 --- [http-nio-8080-exec-5] cn.edu.zjut.common.aspect.LogAspect      : 
+
+2023-03-22 21:00:10.047  WARN 30968 --- [scheduling-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60c48980 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-03-22 21:00:20.072  WARN 30968 --- [scheduling-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76bf46fc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-03-22 21:00:30.089  WARN 30968 --- [scheduling-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3673774c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-03-22 21:00:30.104 ERROR 30968 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30078ms.
+### The error may exist in cn/edu/zjut/circleAndTopicService/mapper/PostMapper.java (best guess)
+### The error may involve cn.edu.zjut.circleAndTopicService.mapper.PostMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30078ms.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:96) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at com.sun.proxy.$Proxy106.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:166) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89) ~[mybatis-plus-core-3.4.3.jar:3.4.3]
+	at com.sun.proxy.$Proxy139.selectList(Unknown Source) ~[na:na]
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.list(ChainQuery.java:39) ~[mybatis-plus-extension-3.4.3.jar:3.4.3]
+	at cn.edu.zjut.circleAndTopicService.job.Top10Job.getTop10ofDaysAgo(Top10Job.java:53) ~[classes/:na]
+	at cn.edu.zjut.circleAndTopicService.job.Top10Job.refreshTop10(Top10Job.java:29) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.2.jar:5.3.2]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.2.jar:5.3.2]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.2.jar:5.3.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30078ms.
+### The error may exist in cn/edu/zjut/circleAndTopicService/mapper/PostMapper.java (best guess)
+### The error may involve cn.edu.zjut.circleAndTopicService.mapper.PostMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30078ms.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:153) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.9.jar:3.5.9]
+	at jdk.internal.reflect.GeneratedMethodAccessor110.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	... 24 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30078ms.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82) ~[spring-jdbc-5.3.2.jar:5.3.2]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.9.jar:3.5.9]
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81) ~[mybatis-plus-extension-3.4.3.jar:3.4.3]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62) ~[mybatis-3.5.9.jar:3.5.9]
+	at com.sun.proxy.$Proxy179.query(Unknown Source) ~[na:na]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151) ~[mybatis-3.5.9.jar:3.5.9]
+	... 30 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30078ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:695) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128) ~[HikariCP-3.4.5.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) ~[spring-jdbc-5.3.2.jar:5.3.2]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) ~[spring-jdbc-5.3.2.jar:5.3.2]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) ~[spring-jdbc-5.3.2.jar:5.3.2]
+	... 42 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2485) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:560) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:173) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:186) ~[HikariCP-3.4.5.jar:na]
+	... 47 common frames omitted
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:761) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:568) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2481) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	... 50 common frames omitted
+
+2023-03-22 21:00:55.125 ERROR 30968 --- [http-nio-8080-exec-3] c.e.z.c.e.GlobalExceptionHandler         : RuntimeException
+
+org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:74) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:272) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:800) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:70) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.get(DefaultedRedisConnection.java:267) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.connection.DefaultStringRedisConnection.get(DefaultStringRedisConnection.java:406) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.core.DefaultValueOperations$1.inRedis(DefaultValueOperations.java:57) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:60) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:222) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	at cn.edu.zjut.interceptor.PreventInterceptor.preHandle(PreventInterceptor.java:32) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:148) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at io.lettuce.core.internal.Exceptions.bubble(Exceptions.java:83) ~[lettuce-core-6.0.1.RELEASE.jar:6.0.1.RELEASE]
+	at io.lettuce.core.internal.Futures.awaitOrCancel(Futures.java:250) ~[lettuce-core-6.0.1.RELEASE.jar:6.0.1.RELEASE]
+	at io.lettuce.core.FutureSyncInvocationHandler.handleInvocation(FutureSyncInvocationHandler.java:75) ~[lettuce-core-6.0.1.RELEASE.jar:6.0.1.RELEASE]
+	at io.lettuce.core.internal.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:80) ~[lettuce-core-6.0.1.RELEASE.jar:6.0.1.RELEASE]
+	at com.sun.proxy.$Proxy170.get(Unknown Source) ~[na:na]
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:68) ~[spring-data-redis-2.4.2.jar:2.4.2]
+	... 50 common frames omitted
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[na:na]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	... 1 common frames omitted
+
+2023-03-22 21:00:55.125  WARN 30968 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。]
+2023-03-22 21:00:55.193  INFO 30968 --- [lettuce-eventExecutorLoop-1-9] i.l.core.protocol.ConnectionWatchdog     : Reconnecting, last destination was /116.62.116.114:6379
+2023-03-22 21:00:55.218  INFO 30968 --- [lettuce-nioEventLoop-4-2] i.l.core.protocol.ReconnectionHandler    : Reconnected to 116.62.116.114:6379
+2023-03-22 21:01:35.280  INFO 30968 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2023-03-22 21:01:35.899  INFO 30968 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2023-03-22 21:01:35.909  INFO 30968 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2023-03-22 21:01:35.909  INFO 30968 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2023-03-22 21:01:35.924  INFO 30968 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2023-03-22 21:01:36.020  INFO 30968 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2023-03-22 21:01:36.385  INFO 30968 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-03-22 21:01:36.385  INFO 30968 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2023-03-22 21:01:36.385  INFO 30968 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2023-03-22 21:01:36.385  INFO 30968 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2023-03-22 21:01:36.385  INFO 30968 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-22 21:01:36.406  INFO 30968 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-22 21:01:46.413  INFO 30968 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

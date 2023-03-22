@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zjut-live</artifactId>
+        <groupId>cn.edu.zjut</groupId>
+        <version>0.1</version>
+    </parent>
+    <packaging>jar</packaging>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>CircleAndTopicService</artifactId>
+    <description>圈子与话题模块</description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>common</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--用户 模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>UserService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--文件模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>FileService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--web 模块-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--quartz 模块-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-quartz</artifactId>-->
+<!--        </dependency>-->
+        <!--fastjson依赖-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus.version}</version>
+        </dependency>
+        <!-- druid 连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+        </dependency>
+        <!--数据库-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

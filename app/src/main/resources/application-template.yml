@@ -1,0 +1,70 @@
+server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB # 最大文件大小
+      max-request-size: 50MB
+  redis:
+    host: TODO
+    port: TODO
+    password: TODO
+  datasource:
+    url: jdbc:mysql://TODO:3306/zjut-live?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: TODO
+    password: TODO
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    redis:
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: 100ms
+  rabbitmq:
+    host: TODO # 主机名
+    port: 5672 # 端口
+    virtual-host: / # 虚拟主机
+    username: TODO # 用户名
+    password: TODO # 密码
+
+
+mybatis-plus:
+  config-location:
+    - classpath*:mapper/**/*Mapper.xml
+# 开启sql提示
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+# 七牛云存储配置
+qiniuyun:
+  accessKey: TODO
+  secretKey: TODO
+  bucket: TODO
+  domain: TODO # 用于拼接图片url
+
+
+logging:
+  file:
+    path: ./logs/
+  level:
+    root: info
+  logback:
+    rollingpolicy:
+      file-name-pattern: logs/log.%d.%i.log
+      max-file-size: 10MB
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+cn\edu\zjut\postService\sign\HandSign.class
+cn\edu\zjut\postService\dto\ActiveListRequest.class
+cn\edu\zjut\postService\vo\LocationInfo.class
+cn\edu\zjut\postService\controller\SignController.class
+cn\edu\zjut\postService\sign\BasicSign.class
+cn\edu\zjut\postService\dto\SignRequest.class
+cn\edu\zjut\postService\controller\ChaoXingUserController.class
+cn\edu\zjut\postService\sign\CommonSign.class
+cn\edu\zjut\postService\sign\PlainSign.class
+cn\edu\zjut\postService\utils\ParseRequestUtils.class
+cn\edu\zjut\postService\vo\Active.class
+cn\edu\zjut\postService\sign\LocationSign.class
+cn\edu\zjut\postService\dto\LoginRequest.class
+cn\edu\zjut\postService\controller\CourseController.class
+cn\edu\zjut\postService\vo\Course.class
+cn\edu\zjut\postService\controller\ActiveController.class

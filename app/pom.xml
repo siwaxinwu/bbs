@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zjut-live</artifactId>
+        <groupId>cn.edu.zjut</groupId>
+        <version>0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>app</artifactId>
+
+    <dependencies>
+        <!--动态模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>PostService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--用户模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>UserService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--圈子模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>CircleAndTopicService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--超星模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>ChaoXingService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--文件模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>FileService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--消息模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>MessageService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--学校模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>SchoolToolService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+        <!--学校模块-->
+        <dependency>
+            <groupId>cn.edu.zjut</groupId>
+            <artifactId>SystemService</artifactId>
+            <version>${zjut-live.version}</version>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-web</artifactId>-->
+<!--        </dependency>-->
+    </dependencies>
+
+    <build>
+        <finalName>app</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+                <configuration>
+                    <mainClass>cn.edu.zjut.Application</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>repackage</id>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0eca03e1-15ff-4ce0-9c54-4ee58f7d9e7a" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/entities/entities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/entities/entities.dat.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/entities/entities.dat.values" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/entities/entities.dat.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/entities/entities.dat.values.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/entities/entities.dat_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/entities/entities.dat_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9a8c0859-b789-4b57-bc8f-6c7d3307129d/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/controller/ActiveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/controller/ChaoXingUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/controller/SignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/dto/ActiveListRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/dto/SignRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/sign/BasicSign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/sign/CommonSign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/sign/HandSign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/sign/LocationSign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/sign/PlainSign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/utils/ParseRequestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/vo/Active.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/vo/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/src/main/java/cn/edu/zjut/postService/vo/LocationInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/ChaoXingService-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/controller/ActiveController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/controller/ChaoXingUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/controller/SignController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/dto/ActiveListRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/dto/LoginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/dto/SignRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/sign/BasicSign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/sign/CommonSign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/sign/HandSign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/sign/LocationSign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/sign/PlainSign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/utils/ParseRequestUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/vo/Active.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/vo/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/classes/cn/edu/zjut/postService/vo/LocationInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChaoXingService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/controller/CircleCatrgoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/controller/CircleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/controller/TopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/enums/CommentTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/enums/OrderModeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/job/Top10Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mapper/CircleCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mapper/CircleJoinMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mapper/CircleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mapper/PostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mapper/RPostTopicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mapper/TopicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/circle/CircleAddOrUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/circle/CircleQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/circleCategory/CircleCategoryAddOrUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/circleCategory/CircleCategoryQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/comment/CommentAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/comment/CommentQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/comment/CommentUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/post/PostAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/post/PostQueryByTopicRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/post/PostQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/post/PostUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/topic/TopicAddOrUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/dto/topic/TopicQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/entity/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/entity/CircleCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/entity/CircleJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/entity/RPostTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/entity/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/vo/CircleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/vo/CommentVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/model/vo/PostVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mq/CommunityRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mq/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/mq/PostAddMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/CircleCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/CircleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/RPostTopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/TopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/impl/CircleCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/impl/CircleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/impl/RPostTopicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/java/cn/edu/zjut/circleAndTopicService/service/impl/TopicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/resources/mapper/CircleCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/resources/mapper/CircleJoinMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/resources/mapper/CircleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/resources/mapper/PostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/resources/mapper/RPostTopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/src/main/resources/mapper/TopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/CircleAndTopicService-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/controller/CircleCatrgoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/controller/CircleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/controller/CommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/controller/PostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/controller/TopicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/enums/CommentTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/enums/OrderModeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/job/Top10Job.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mapper/CircleCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mapper/CircleJoinMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mapper/CircleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mapper/CommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mapper/PostMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mapper/RPostTopicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mapper/TopicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/circle/CircleAddOrUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/circle/CircleQueryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/circleCategory/CircleCategoryAddOrUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/circleCategory/CircleCategoryQueryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/comment/CommentAddRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/comment/CommentQueryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/comment/CommentUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/post/PostAddRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/post/PostQueryByTopicRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/post/PostQueryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/post/PostUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/topic/TopicAddOrUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/dto/topic/TopicQueryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/entity/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/entity/CircleCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/entity/CircleJoin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/entity/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/entity/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/entity/RPostTopic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/entity/Topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/vo/CircleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/vo/CommentVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/model/vo/PostVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mq/CommunityRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mq/Listener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/mq/PostAddMq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/CircleCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/CircleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/PostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/RPostTopicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/TopicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/impl/CircleCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/impl/CircleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/impl/CommentServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/impl/CommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/impl/PostServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/impl/RPostTopicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/cn/edu/zjut/circleAndTopicService/service/impl/TopicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/mapper/CircleCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/mapper/CircleJoinMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/mapper/CircleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/mapper/PostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/mapper/RPostTopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/classes/mapper/TopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleAndTopicService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/src/main/java/cn/edu/zjut/fileService/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/src/main/java/cn/edu/zjut/fileService/enums/ResourceStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/src/main/java/cn/edu/zjut/fileService/mapper/ResourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/src/main/java/cn/edu/zjut/fileService/model/entity/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/src/main/java/cn/edu/zjut/fileService/service/ResourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/src/main/java/cn/edu/zjut/fileService/service/impl/ResourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/src/main/java/cn/edu/zjut/fileService/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/src/main/resources/mapper/ResourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/FileService-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/classes/cn/edu/zjut/fileService/controller/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/classes/cn/edu/zjut/fileService/enums/ResourceStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/classes/cn/edu/zjut/fileService/mapper/ResourceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/classes/cn/edu/zjut/fileService/model/entity/Resource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/classes/cn/edu/zjut/fileService/service/ResourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/classes/cn/edu/zjut/fileService/service/impl/ResourceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/classes/cn/edu/zjut/fileService/utils/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/classes/mapper/ResourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/enums/MessageTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/enums/NotificationTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/mapper/MessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/mapper/NotificationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/dto/message/MessageAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/dto/message/MessageQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/dto/notification/NotificationAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/dto/notification/NotificationQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/entity/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/vo/ChatItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/vo/MessageVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/vo/NotificationItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/vo/NotificationVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/model/vo/ResourceVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/mq/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/mq/MessageRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/mq/SimpleMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/java/cn/edu/zjut/messageService/service/impl/NotificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/resources/mapper/MessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/src/main/resources/mapper/NotificationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/MessageService-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/controller/MessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/controller/NotificationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/enums/MessageTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/enums/NotificationTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/mapper/MessageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/mapper/NotificationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/dto/message/MessageAddRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/dto/message/MessageQueryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/dto/notification/NotificationAddRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/dto/notification/NotificationQueryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/entity/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/entity/Notification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/vo/ChatItemVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/vo/MessageVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/vo/NotificationItemVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/vo/NotificationVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/model/vo/ResourceVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/mq/MessageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/mq/MessageRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/mq/SimpleMessage$Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/mq/SimpleMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/service/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/service/NotificationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/service/impl/MessageServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/service/impl/MessageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/cn/edu/zjut/messageService/service/impl/NotificationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/mapper/MessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/classes/mapper/NotificationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MessageService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/src/main/java/cn/edu/zjut/schoolToolService/controller/ClassTableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/src/main/java/cn/edu/zjut/schoolToolService/controller/ExamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/src/main/java/cn/edu/zjut/schoolToolService/controller/TermInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/src/main/java/cn/edu/zjut/schoolToolService/controller/WejhUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/src/main/java/cn/edu/zjut/schoolToolService/dto/WejhLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/src/main/java/cn/edu/zjut/schoolToolService/dto/ZfRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/SchoolToolService-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/classes/cn/edu/zjut/schoolToolService/controller/ClassTableController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/classes/cn/edu/zjut/schoolToolService/controller/ExamController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/classes/cn/edu/zjut/schoolToolService/controller/TermInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/classes/cn/edu/zjut/schoolToolService/controller/WejhUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/classes/cn/edu/zjut/schoolToolService/dto/WejhLoginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/classes/cn/edu/zjut/schoolToolService/dto/ZfRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SchoolToolService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/src/main/java/cn/edu/zjut/systemService/controller/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/src/main/java/cn/edu/zjut/systemService/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/src/main/java/cn/edu/zjut/systemService/controller/SwiperController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/src/main/java/cn/edu/zjut/systemService/enums/ClickTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/src/main/java/cn/edu/zjut/systemService/model/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/src/main/java/cn/edu/zjut/systemService/model/Swiper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/SystemService-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/classes/cn/edu/zjut/systemService/controller/ActivityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/classes/cn/edu/zjut/systemService/controller/AppController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/classes/cn/edu/zjut/systemService/controller/SwiperController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/classes/cn/edu/zjut/systemService/enums/ClickTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/classes/cn/edu/zjut/systemService/model/Activity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/classes/cn/edu/zjut/systemService/model/Swiper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/controller/BlockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/controller/CoinRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/controller/FollowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/controller/LevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/controller/UserTagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/controller/common/CaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/enums/CoinOperationTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/enums/CoinRecordNoteEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/enums/SexEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/enums/UserStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/mapper/BlockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/mapper/CoinRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/mapper/FollowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/mapper/LevelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/mapper/UserTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/level/LevelAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/level/LevelUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/user/UserAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/user/UserQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/user/UserUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/userTag/UserTagAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/userTag/UserTagQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/dto/userTag/UserTagUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/entity/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/entity/CoinRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/entity/Follow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/entity/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/entity/UserTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/vo/UserBasicInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/model/vo/UserSimpleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/mq/UserRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/BlockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/CoinRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/FollowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/LevelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/UserTagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/impl/BlockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/impl/CoinRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/impl/FollowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/impl/LevelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/service/impl/UserTagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/utils/ChaoXingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/utils/CurUserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/edu/zjut/userService/utils/WeJhUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/mapper/BlockMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/mapper/CoinRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/mapper/FollowMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/mapper/LevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/mapper/UserTagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/UserService-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/controller/BlockController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/controller/CoinRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/controller/FollowController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/controller/LevelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/controller/UserTagController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/controller/common/CaptchaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/enums/CoinOperationTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/enums/CoinRecordNoteEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/enums/SexEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/enums/UserStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/mapper/BlockMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/mapper/CoinRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/mapper/FollowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/mapper/LevelMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/mapper/UserTagMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/LoginDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/RegisterDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/level/LevelAddRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/level/LevelUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/user/UserAddRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/user/UserQueryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/user/UserUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/userTag/UserTagAddRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/userTag/UserTagQueryRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/dto/userTag/UserTagUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/entity/Block.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/entity/CoinRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/entity/Follow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/entity/Level.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/entity/UserTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/vo/UserBasicInfoVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/model/vo/UserSimpleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/mq/UserRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/BlockService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/CoinRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/FollowService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/LevelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/UserTagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/impl/BlockServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/impl/CoinRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/impl/FollowServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/impl/LevelServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/service/impl/UserTagServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/utils/ChaoXingUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/utils/CurUserUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/edu/zjut/userService/utils/WeJhUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/mapper/BlockMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/mapper/CoinRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/mapper/FollowMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/mapper/LevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/mapper/UserTagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cn/edu/zjut/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cn/edu/zjut/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cn/edu/zjut/interceptor/PreventInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/cn/edu/zjut/interceptor/UserStatusInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/application-template.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/cn/edu/zjut/service/impl/LevelServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/app.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/app.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/application-db.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/cn/edu/zjut/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/cn/edu/zjut/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/cn/edu/zjut/interceptor/PreventInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/cn/edu/zjut/interceptor/UserStatusInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/test-classes/cn/edu/zjut/service/impl/LevelServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/annotation/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/annotation/CacheStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/annotation/Prevent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/annotation/PreventStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/annotation/RequireAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/aspect/CacheAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/aspect/PreventAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/aspect/WebAdminAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/constants/CommonConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/constants/FileConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/constants/MqConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/constants/PageConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/constants/PatternConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/constants/ScoreConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/enums/CodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/enums/LoginTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/enums/user/UserTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/exception/UtilException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/model/ChaoXingUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/model/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/model/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/model/ScoreRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/model/ScrollResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/model/WeJhUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/redis/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/redis/RedisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/redis/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/utils/AddressUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/utils/CurUserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/utils/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/utils/SnowFlakeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/utils/SnowflakeIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/edu/zjut/common/utils/SpringContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/annotation/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/annotation/CacheStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/annotation/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/annotation/Prevent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/annotation/PreventStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/annotation/RequireAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/aspect/CacheAspect$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/aspect/CacheAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/aspect/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/aspect/PreventAop$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/aspect/PreventAop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/aspect/WebAdminAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/constants/CommonConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/constants/FileConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/constants/MqConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/constants/PageConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/constants/PatternConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/constants/ScoreConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/enums/CodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/enums/LoginTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/enums/user/UserTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/exception/UtilException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/model/ChaoXingUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/model/PageRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/model/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/model/ScoreRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/model/ScrollResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/model/WeJhUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/redis/RedisConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/redis/RedisManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/redis/RedisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/utils/AddressUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/utils/CurUserUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/utils/HttpUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/utils/PageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/utils/SnowFlakeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/utils/SnowflakeIdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/edu/zjut/common/utils/SpringContextHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/common-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log.2023-03-21.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/spring.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/table.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.2\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2K2Jklab3F8ecsm2L8H7TdRhEuR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunConfigurationTargetLRU" value="9a8c0859-b789-4b57-bc8f-6c7d3307129d/schema/&quot;zjut-live&quot;" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="所有位置" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2486911" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\java\zjut-live" />
+      <recent name="E:\code\java\zjut-live\common\src\main\java\cn\edu\zjut\common\annotation" />
+      <recent name="E:\code\java\zjut-live\common\src\main\java\cn\edu\zjut\common\aspect" />
+      <recent name="E:\code\java\zjut-live\MessageService\src\main\resources" />
+      <recent name="E:\code\java\zjut-live\FileService\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\java\zjut-live\CircleAndTopicService\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.edu.zjut.userService.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu.zjut.interceptor" />
+      <recent name="cn.edu.zjut.common.annotation" />
+      <recent name="cn.edu.zjut.common.enums" />
+      <recent name="cn.edu.zjut.userService.enums" />
+      <recent name="cn.edu.zjut.circleAndTopicService.enums" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="SnowflakeIdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.zjut.utils.SnowflakeIdWorker" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.zjut.userService.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create_table.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/create_table.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="9a8c0859-b789-4b57-bc8f-6c7d3307129d" namespace="schema/&quot;zjut-live&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LevelServiceImplTest.getLevelNameByCount (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="impl" />
+      <option name="MAIN_CLASS_NAME" value="impl.LevelServiceImplTest" />
+      <option name="METHOD_NAME" value="getLevelNameByCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelServiceImplTest.getLevelNameByCount (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.zjut.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.zjut.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.zjut.service.impl.LevelServiceImplTest" />
+      <option name="METHOD_NAME" value="getLevelNameByCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelServiceImplTest.getLevelNameByCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.zjut.circleAndTopicService.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.edu.zjut.userService.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.zjut.userService.service.impl.LevelServiceImplTest" />
+      <option name="METHOD_NAME" value="getLevelNameByCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.zjut.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LevelServiceImplTest.getLevelNameByCount (2)" />
+        <item itemvalue="JUnit.LevelServiceImplTest.getLevelNameByCount (1)" />
+        <item itemvalue="JUnit.LevelServiceImplTest.getLevelNameByCount" />
+        <item itemvalue="数据库脚本.create_table.sql" />
+        <item itemvalue="应用程序.SnowflakeIdWorker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="0eca03e1-15ff-4ce0-9c54-4ee58f7d9e7a" name="变更" comment="" />
+      <created>1673166891759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673166891759</updated>
+      <workItem from="1673166893143" duration="1218000" />
+      <workItem from="1673182134172" duration="1485000" />
+      <workItem from="1673245257172" duration="1907000" />
+      <workItem from="1673247205501" duration="637000" />
+      <workItem from="1673248119929" duration="435000" />
+      <workItem from="1673248602106" duration="330000" />
+      <workItem from="1673248954856" duration="738000" />
+      <workItem from="1673249706984" duration="42000" />
+      <workItem from="1673249771147" duration="2591000" />
+      <workItem from="1673252537907" duration="10511000" />
+      <workItem from="1673269166709" duration="6117000" />
+      <workItem from="1673354915626" duration="2945000" />
+      <workItem from="1673357930714" duration="8070000" />
+      <workItem from="1673406679811" duration="24859000" />
+      <workItem from="1673492491598" duration="31555000" />
+      <workItem from="1673611187234" duration="10751000" />
+      <workItem from="1673662287034" duration="33855000" />
+      <workItem from="1673764453717" duration="15795000" />
+      <workItem from="1673850616086" duration="5407000" />
+      <workItem from="1673936561943" duration="7347000" />
+      <workItem from="1673962369842" duration="2237000" />
+      <workItem from="1674011635618" duration="6997000" />
+      <workItem from="1674106489065" duration="2454000" />
+      <workItem from="1674222308929" duration="8556000" />
+      <workItem from="1675307407628" duration="510000" />
+      <workItem from="1676895066988" duration="9191000" />
+      <workItem from="1676965221589" duration="9147000" />
+      <workItem from="1677030855411" duration="4593000" />
+      <workItem from="1677050752239" duration="12820000" />
+      <workItem from="1677138111836" duration="5302000" />
+      <workItem from="1677198981486" duration="26747000" />
+      <workItem from="1677286336852" duration="26937000" />
+      <workItem from="1677384971646" duration="10952000" />
+      <workItem from="1677482789848" duration="5306000" />
+      <workItem from="1677499799120" duration="5832000" />
+      <workItem from="1677582143564" duration="4169000" />
+      <workItem from="1677635604419" duration="5046000" />
+      <workItem from="1677653950505" duration="9086000" />
+      <workItem from="1677742291491" duration="12515000" />
+      <workItem from="1677801757763" duration="26247000" />
+      <workItem from="1677889669804" duration="17408000" />
+      <workItem from="1677940473271" duration="1245000" />
+      <workItem from="1678000114648" duration="21550000" />
+      <workItem from="1678086272026" duration="15135000" />
+      <workItem from="1678175044157" duration="7909000" />
+      <workItem from="1678240683209" duration="24488000" />
+      <workItem from="1678346856719" duration="12564000" />
+      <workItem from="1678409378911" duration="4282000" />
+      <workItem from="1678453825746" duration="4626000" />
+      <workItem from="1678460942445" duration="50000" />
+      <workItem from="1678496324225" duration="833000" />
+      <workItem from="1678500669914" duration="721000" />
+      <workItem from="1678519764968" duration="3245000" />
+      <workItem from="1678594336897" duration="46000" />
+      <workItem from="1679395835678" duration="3185000" />
+      <workItem from="1679402434076" duration="9000" />
+      <workItem from="1679478541300" duration="1336000" />
+      <workItem from="1679488685639" duration="1827000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.validation.BeanPropertyBindingResult" memberName="errors" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="url" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/zjut_live$Application.ic" NAME="Application 覆盖结果" MODIFIED="1678364598813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+# 七牛云存储配置
+qiniuyun:
+  accessKey: DbO1MAa0SWit2LcF_R_LkEWVGhYqs6mwHM6AQPow
+  secretKey: CE5TNwmDsGg470oFh56Nf_uIwYfBUOmgS38yU3Cd
+  bucket: xgcode
+  domain: http://cdn.xgcode.cn/
