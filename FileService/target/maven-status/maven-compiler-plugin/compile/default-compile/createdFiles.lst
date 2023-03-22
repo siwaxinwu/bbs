@@ -1,7 +1,0 @@
-cn\edu\zjut\fileService\enums\ResourceStatusEnum.class
-cn\edu\zjut\fileService\mapper\ResourceMapper.class
-cn\edu\zjut\fileService\controller\FileController.class
-cn\edu\zjut\fileService\utils\FileUtil.class
-cn\edu\zjut\fileService\service\ResourceService.class
-cn\edu\zjut\fileService\model\entity\Resource.class
-cn\edu\zjut\fileService\service\impl\ResourceServiceImpl.class
