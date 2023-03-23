@@ -19,8 +19,8 @@
 *.tar.gz
 *.rar
 
-.idea
 app/src/main/resources/application.yml
-docker-compose.yml
+/docker-compose.yml
 /**/target
 /logs
+/.idea/
