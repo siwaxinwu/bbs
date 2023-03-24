@@ -179,7 +179,7 @@ public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment>
         }
         Long commentId = commentVo.getId();
         List<Comment> list = lambdaQuery().eq(Comment::getCommentId, commentId)
-                                            .orderByDesc(Comment::getThumbCount, Comment::getCreatedTime)
+                                            .orderByDesc(Comment::getThumbCount)
                                             .last(" limit " + count).list();
         List<CommentVo> collect = list.stream().map(this::toCommentVo).collect(Collectors.toList());
         commentVo.setHotReplyList(collect);
