@@ -19,7 +19,9 @@
 *.tar.gz
 *.rar
 
-app/src/main/resources/application.yml
+/app/src/main/resources/application.yml
+/app/src/main/resources/application-dev.yml
+/app/src/main/resources/application-pro.yml
 /docker-compose.yml
 /**/target
 /logs

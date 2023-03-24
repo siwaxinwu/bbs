@@ -90,14 +90,19 @@ public class MessageListener {
         CommentTypeEnum commentTypeEnum = CommentTypeEnum.transform(comment.getType());
         String type;
         // 为评论动态
+
         if (CommentTypeEnum.COMMENT.equals(commentTypeEnum)) {
             type = NotificationTypeEnum.COMMENT.getValue();
         }
         // 为回复评论
         else if (CommentTypeEnum.REPLY.equals(commentTypeEnum)) {
             type = NotificationTypeEnum.REPLY.getValue();
-            // 评论的回复数+1
+            // 被评论的回复数+1
             commentService.lambdaUpdate().setSql("reply_count=reply_count+1").eq(Comment::getId,comment.getReplyCommentId()).update();
+            // 父级评论回复数+1 （如果被回复评论和父级评论不是同一条的话）
+            if (comment.getCommentId() != null && !comment.getCommentId().equals(comment.getReplyCommentId())) {
+                commentService.lambdaUpdate().setSql("reply_count=reply_count+1").eq(Comment::getId, comment.getCommentId()).update();
+            }
         }
         else {
             throw new BusinessException(CodeEnum.UN_KNOW_ERROR);

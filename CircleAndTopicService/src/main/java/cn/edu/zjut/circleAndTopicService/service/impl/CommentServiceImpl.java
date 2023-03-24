@@ -178,7 +178,7 @@ public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment>
             return;
         }
         Long commentId = commentVo.getId();
-        List<Comment> list = lambdaQuery().eq(Comment::getReplyCommentId, commentId)
+        List<Comment> list = lambdaQuery().eq(Comment::getCommentId, commentId)
                                             .orderByDesc(Comment::getThumbCount, Comment::getCreatedTime)
                                             .last(" limit " + count).list();
         List<CommentVo> collect = list.stream().map(this::toCommentVo).collect(Collectors.toList());
@@ -275,6 +275,7 @@ public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment>
         newRequest.setOrderMode(request.getOrderMode());
         newRequest.setType(CommentTypeEnum.REPLY.getValue());
 
+        // 转换为commentVo列表
         Page<Comment> commentPage = queryCommentPage(newRequest);
         List<Comment> commentList = commentPage.getRecords();
         List<CommentVo> commentVoList = new ArrayList<>(commentList.size());
